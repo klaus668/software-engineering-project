@@ -1,0 +1,40 @@
+Use Case UC-£¨6£©: Users fill in order information 
+Related Requirement¡¯s:REQ5, REQ5, REQ7,table1-2
+Initiating Actor: Any of: senders
+Actor¡¯s Goal: Ensuring accuracy and consistency of information
+Participating Actors: name¡¯s students or teacher, address of the teacher and students, name¡¯s food and takeout, phone number, order information. data processing center.
+Preconditions: Senders confirm the type of food or takeaway
+Post conditions: Senders confirm order information again, 
+Flow of Events for Main Success Scenario: 
+--> a. Senders determine the type of food and take-out, 
+<--b. the system displays order information to users, 
+->c. users fill in order information.
+<--d. The system feedback to the users.
+
+
+UC-5: data processing
+Related Requirement¡¯s:REQ1, REQ12, table1-2
+Initiating Actor: Any of: senders, receivers
+Actor¡¯s Goal: Let the database system to store the database of the users.
+Participating Actors: name¡¯s students or teacher, address of the teacher and students, name¡¯s food and takeout, phone number, senders¡¯ information
+Preconditions: The senders and receivers finished their order
+Post conditions: The data processing center store and arrange the database
+Flow of Events for Main Success Scenario: 
+--->a. The receivers finished the information, the system receive this order. 
+<----b. The system stores the database and feedback to the receivers.
+
+
+
+Use Case UC-£¨13£©User scans the code
+Related Requirement¡¯s: REQ9, table1-2
+Initiating Actor: Any of: receivers
+Actor¡¯s Goal: Receivers get the food and takeout.
+Participating Actors: data processing center, system
+Preconditions: System got the access information about information code, and sent this code to the users
+Post conditions: Users scan the door, and the door will open
+Flow of Events for Main Success Scenario: 
+--->a. The system got the information code and sent the access code to the recipients. 
+<---b. The recipients got the access code.
+
+
+
